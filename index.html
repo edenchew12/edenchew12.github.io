@@ -1,127 +1,728 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Eden Chew Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Eden Chew</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Eden</strong> <span>Chew</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="resume.html">Resume</a></li>
-							<li><a href="technical.html">Technical Projects</a></li>
-							<li><a href="design.html">Design Projects</a></li>
-							<li><a href="sidehustle.html">Side Hustles</a></li>
-						</ul>
-					</nav>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<span class="image">
-								<img src="images/background.JPG" alt="" />
-							</span>
-							<header class="major">
-								<h1>Hello, I'm Eden Chew</h1>
-							</header>
-							<div >
-								<p>I'm an Information Systems Undergraduate at National University of Singapore with a serious passion for software development and product design.
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+    <link rel="icon"  sizes="32x32" href="favicon.ico">
+    <link rel="icon"  sizes="16x16" href="favicon.ico">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Eden.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li class="current"><a href="#intro" class="smoothscroll">Home</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#skills" class="smoothscroll">Skills</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello
+                        </div>
+
+                        <h1 class="text-huge-title">
+                            I am Eden, <br>
+                            Software Developer<br>
+                            & Product Designer <br> 
+                            
+                        </h1>
+                    </div>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div class="column lg-6 md-12 about-info__pic-block">
+                        <img src="images/background.JPG" 
+                             srcset="images/background.JPG 1x, images/background.JPG 2x" alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+                            <p class="attention-getter" data-animate-el>
+                                I'm an Information Systems Undergraduate at National University of Singapore with a serious passion for software development and product design.
 								During my free time, I enjoy learning software engineering technologies and working on side-projects to value add my technical experience.
-								</p>
-							
-							</div>
-							<ul class="actions">
-								<li><a href="#one" class="button next scrolly">View My Work</a></li>
-							</ul>
-						</div>
-					</section>
+                            </p>
+                            <a href="https://drive.google.com/file/d/1eIcLi8E-pGU9r24npmbvsM2lmkPgJ-wE/view" class="btn btn--medium u-fullwidth" data-animate-el>Download Resume</a>
 
-				<!-- Main -->
-					<div id="main">
+                        </div>
+                    </div>
+                </div> <!-- about-info -->
 
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/resume.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="resume.html" class="link">Resume</a></h3>
-										<p>Experience & Education</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/technical.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="technical.html" class="link">Technical Projects</a></h3>
-										<p>Software projects developed</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/design.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="design.html" class="link">Design Projects</a></h3>
-										<p>Products designed</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/sidehustle.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="sidehustle.html" class="link">Side Hustles</a></h3>
-										<p>Entrepreneurial Ventures</p>
-									</header>
-								</article>
-							</section>
 
-				
 
-				<!-- Footer -->
-				<footer id="footer">
-					<div class="inner">
-						<header class="major">
-							<h3>Contact me</h3>
-							</header>
-							<ul class="icons">
-								<li><a href="https://github.com/edenchew12" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/edenchew/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:edenchew@u.nus.edu" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-					</div>
-				</footer>
 
-			</div>
+                <div class="row about-timelines" data-animate-block>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                    <div class="column lg-6 tab-12">
 
-	</body>
+                        <h2 class="text-pretitle" data-animate-el>
+                            Experience
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">DBS Bank</h3>
+                                    <h5 class="timeline__meta">Software Engineer Intern</h5>
+                                    <p class="timeline__timeframe">May 2021 - Jul 2021</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    
+										<li>Built a purge configuration platform utilized by Development and Support Team to facilitate microservices’ databases housekeeping.</li>
+										<br>
+                                        <li>Built a database navigation tool utilized by Development and Support Team to access database schemas and execute SQL queries.</li>
+										<br>
+                                        <li>Utilized: Java EE, Struts 2.0, JavaScript, JSP, jQuery, AJAX, Bootstrap, SQL, Git, Bitbucket, Jira.</li>
+
+									                        </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">ST Electronics</h4>
+                                    <h5 class="timeline__meta">Mechanical Engineer Intern</h5>
+                                    <p class="timeline__timeframe">Oct 2016 - Feb 2017</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <li>Unmanned Surface Vessels (USV) Production Team at Large-Scale Systems Group</li>
+                                    <br>
+                                    <li>Designed mechanical components using SolidWorks for USV production.</li>                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+
+                    </div> <!-- end column -->                
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">National University of Singapore</h3>
+                                    <h5 class="timeline__meta">Bachelor of Computing (Honours), Information Systems</h5>
+                                    <p class="timeline__timeframe">Aug 2019 - May 2023</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <b>Achievements:</b>
+                                    <li>NUS Fintech Hackathon 2021 - 2nd Runner Up</li><br>
+                                    <li>NUS Venture Initiation Programme@SoC Grant - Awarded S$10,000 to pursue start-up idea</li><br>
+                                    <li>Huawei Future Interaction Design Award (Team) - 2nd Runner Up</li><br>
+                                    <li>Huawei Future Interaction Design Award (Individual) - 2nd Runner Up</li>                                </div>
+                            </div>
+    
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Ngee Ann Polytechnic</h4>
+                                    <h5 class="timeline__meta">Diploma with Merit in Mechanical Engineering</h5>
+                                    <p class="timeline__timeframe">APR 2014 - APR 2017</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <b>Minor:</b> Business Management
+									<li>Director's List Recipient (Top 10% in Cohort)</li>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
+
+
+                </div> <!-- end about-timelines -->
+
+                <div id="skills" class="row about-expertise" data-animate-block>
+                    <div class="column lg-12 tab-12">
+                        <h2 class="text-pretitle" data-animate-el>
+                            Highlighted Skills
+                        </h2>
+                    <ul class="skill-bars" data-animate-el>
+                        <li>
+                            <div class="progress percent75">
+                                <span>
+                                    75%
+                                </span>
+                                <strong>JavaScript</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent80">
+                                <span>
+                                    80%
+                                </span>
+                                <strong>Java</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent70">
+                                <span>
+                                    70%
+                                </span>
+                                <strong>HTML & CSS</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent60">
+                                <span>
+                                    60%
+                                </span>
+                                <strong>SQL</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent60">
+                                <span>
+                                    60%
+                                </span>
+                                <strong>Solidity</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent60">
+                                <span>
+                                    60%
+                                </span>
+                                <strong>ReactJS</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent60">
+                                <span>
+                                    60%
+                                </span>
+                                <strong>TailwindCSS</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent40">
+                                <span>
+                                    40%
+                                </span>
+                                <strong>Express</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent40">
+                                <span>
+                                    40%
+                                </span>
+                                <strong>NodeJS</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent40">
+                                <span>
+                                    40%
+                                </span>
+                                <strong>MongoDB</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent70">
+                                <span>
+                                    70%
+                                </span>
+                                <strong>Git</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress percent80">
+                                <span>
+                                    80%
+                                </span>
+                                <strong>Figma</strong>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+                <div class="row works-portfolio">
+                    <div class="column lg-12" data-animate-block>
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have done lately. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-07">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/TXT.JPG"
+                                             srcset="images/portfolio/TXT.JPG 1x, images/portfolio/TXT.JPG 2x"  alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Technical Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Tong Xin Tang Medical System
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-01">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/bonafide.JPG"
+                                             srcset="images/portfolio/bonafide.JPG 1x, images/portfolio/bonafide.JPG 2x"  alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Technical Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Bonafide
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+                            
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-02">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/Greenify.JPG" 
+                                             srcset="images/portfolio/Greenify.JPG 1x, images/portfolio/Greenify.JPG 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Technical Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Greenify
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/VirtualPal.JPG" 
+                                             srcset="images/portfolio/VirtualPal.JPG 1x, images/portfolio/VirtualPal.JPG 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Technical Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            VirtualPal
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/wc.jpg"
+                                             srcset="images/portfolio/wc.jpg 1x, images/portfolio/wc.jpg" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Design Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            WOWCher
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-05">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/jarv.jpg" 
+                                             srcset="images/portfolio/jarv.jpg 1x, images/portfolio/jarv.jpg 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Design Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            JARVIS
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/VirtualMED.JPG" 
+                                             srcset="images/portfolio/VirtualMED.JPG 1x, images/portfolio/VirtualMED.JPG 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Design Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            VirtualMED
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-08">
+                                    <div class="folio-list__item-pic">
+                                        <img src="images/portfolio/Fit Assistant.JPG" 
+                                             srcset="images/portfolio/Fit Assistant.JPG 1x, images/portfolio/Fit Assistant.JPG 2x" alt="">
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Design Project
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Fit Assistant
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                    <div id="modal-01" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/bonafide.JPG" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Bonafide</h5>
+                                <li>A decentralized peer-to-peer luxury goods trading platform utilizing ERC721 smart token to authenticate transactions.</li>
+                                <li>Awarded 2nd Runner Up for NUS FinTech Hackathon 2021</li>
+                                <li>Susequently developed into a start-up venture and awarded NUS Innovation and Entrepreneurial Grant (S$10,000) to further develop MVP.</li>
+                                <li>Utilized: Solidity, Hardhat, Web3, ReactJS, NextJS, TailWind CSS, Git.</li>
+                                <br>
+                            
+                                <ul class="modal-popup__cat">
+                                    <li>
+                                        <a href="https://www.canva.com/design/DAEW9HsMSSk/V2ajq5WF3wQ-ZI0Ex-pomQ/view?utm_content=DAEW9HsMSSk&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent">Pitch Deck</a>
+                                    </li>
+                                    <li><a href="https://github.com/edenchew12/nftmarket">Sample Code</a></li>
+    
+                                </ul>                             
+                            </div>
+                        </div>
+
+                    </div> <!-- end modal -->
+
+                    <div id="modal-02" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/Greenify.JPG" alt="">
+                            <div class="modal-popup__desc">
+                                    <h5>Greenify</h5>
+                                    <li>An e-Commerce web platform and staff management system to support sales transactions of upcycled eco-friendly products.</li>
+									<li>Developed Staff Adminstrative System for e-Commerce utilizing server-side technologies and MVVM design pattern.</li>
+									<li>Developed e-Commerce web store utilizing client-side technologies and REST API.</li>
+									<li>Utilized: Java EE, JSF, REST API, AngularJS, Git.</li>
+                                    <br><br> 
+                            </div>                
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-03" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/VirtualPal.JPG" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>VirtualPal</h5>
+                                <li>VirtualPal is a cross-platform (iOS, Android) pen-pal mobile application aimed to connect like-minded friends while not compromising anonymity.</li>
+												<li>Incorporated a personality test and matching system allowing users to connect with better matching pals.</li>
+												<li>Developed an automated prompt system giving users conversation starters and tasks to during matching period.</li>
+												<li>NUS Orbital Programme 2019 – Gemini (Intermediate) Level Achievement</li>
+												<li>Utilized: React Native, Expo, Firebase, Git.</li>
+                                                <br>
+                                <ul class="modal-popup__cat">
+                                    <li><a href="https://github.com/edenchew1/virtualpal">Source Code</a></li>
+                                    <li><a href="https://www.youtube.com/watch?v=UWwfmuBBIfI&feature=youtu.be">Demo Video</a></li>
+                                </ul>
+                            </div>                            
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-04" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/wc.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>WOWCher</h5>
+                                <li>A mobile application design prototype aimed to digitize and provide voucher usage convenience.</li>
+												<li>Conducted contextual inquiries and usability testing on primary and secondary users.</li>
+												<li>Developed low-fidelity and high-fidelity prototypes utilizing Balsamiq and Figma.</li>
+												<li>Developed as part of a semester long group project for the module CS3240.</li>
+												<li>Awarded 2nd Runner Up for Huawei Future Interaction Design Award (Team).</li>
+                                <br>
+                                                <ul class="modal-popup__cat">
+                                    <li><a href="https://edenchew.medium.com/wowcher-design-portfolio-8a3bdb75ada0">Design Portfolio</a></li>
+									<li><a href="https://www.canva.com/design/DAEb74gF0Wk/lb-_RchAlM_vuPmTMHAv7A/view?utm_content=DAEb74gF0Wk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton">Pitch Deck</a></li>
+                                </ul>
+                            </div>                
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-05" hidden>
+                        <div class="modal-popup">
+
+                            <img src="images/portfolio/jarv.jpg" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>JARVIS - Driver's Virtual Assistant</h5>
+                                    <li>A digital driving assistant prototype aimed to improve users’ driving experience on the road without compromising safety.</li>
+									<li>Developed low-fidelity and high-fideity prototypes utilizing Balsamiq and Figma.</li>
+									<li>Awarded 2nd Runner Up for Huawei Future Interaction Design Award (Individual).</li>
+                                    <br>
+                                    <ul class="modal-popup__cat">
+                                    <a href="https://docs.google.com/presentation/d/1_84nkpSoQtStkRX_swxsNn_NydDRrM7rWu9YfUxJlaw/edit?usp=sharing">Design Portfolio</a>
+                                </ul>
+                                </div>                
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/VirtualMED.JPG" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>VirtualMED</h5>
+                                    <li>A mobile application prototype aimed to digitize the healthcare industry with tele-consulting and digital medicine dispensary.</li>
+												<li>Developed high fidelity prototype utilizing Figma.</li>
+												<li>Designed as part of NUS Entrepreneurship Society: Ground Zero Startathon 2021</li>
+                                                <br>
+                                                <ul class="modal-popup__cat">
+                                                    <a href="https://www.figma.com/proto/IzfY2nJ8uUkcZ3N6id2I8x/VirtualMED?scaling=scale-down&page-id=0%3A1&node-id=5%3A1652">Figma Prototype</a>
+                                                </ul>
+                                            </div>
+                        </div>
+                    </div> <!-- end modal -->
+                    <div id="modal-07" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/TXT.JPG" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Tong Xin Tang Medical System</h5>
+                                    <li>Developed a medical information system in collaborations with Tong Xin Tang Traditional Chinese Medicine Clinic.</li>
+									<li> Building a staff management platform, e-Commerce web and mobile platform to fulfil clinic's digitization needs.</li>
+									<li> Utilized: REST API, MERN stack, Git.</li>
+                                    <br>
+                            </div>
+                        </div>
+                    </div> <!-- end modal -->
+                    <div id="modal-08" hidden>
+                        <div class="modal-popup">
+                            <img src="images/portfolio/Fit Assistant.JPG" alt="">
+                
+                            <div class="modal-popup__desc">
+                                <h5>Fit Assistant</h5>
+                                <li>Designed low and high fidelity user interface and prototype of a virtual fit assistant to mitigate the issue of size misfits within online purchases in Shopee</li>
+                                <li>Designed low-fidelity and high-fideity prototypes utilizing Figma.</li>
+                                <li>Developed as part of Shopee Product Design Competition 2020</li>
+                                    <br>
+                                    <ul class="modal-popup__cat">
+                                        <a href="https://www.figma.com/proto/LrprhkplWWhPnXszuUSuOA/Fit-Assistant?scaling=scale-down&page-id=0%3A1&node-id=7%3A331">Figma Prototype</a>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div> <!-- end modal -->
+
+                </div> <!-- end works-portfolio -->
+            </section> <!-- end s-works -->
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:edenchew@u.nus.edu" class="mailtoui">edenchew@u.nus.edu</a> <br>
+                            
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Socials</h3>
+                        <ul class="contact-social">
+                            <li><a href="https://github.com/edenchew12">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/edenchew/">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:edenchew@u.nus.edu" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Eden Chew</span> 
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 </html>
